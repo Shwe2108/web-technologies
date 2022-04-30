@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ticket</title>
+	<style type="text/css">
+		select,input[type="text"]
+		{
+			width: 100%;
+		}
+		input
+		{
+			padding: 5px;
+		}
+		select
+		{
+			padding: 10px 15px;
+		}
+		input[type="button"]
+		{
+			border-radius: 10px;
+			padding: 20px;
+			width: 250px;
+		}
+		td:hover
+		{
+			font-weight: bold;
+			text-transform: unset;
+			color: hotpink;
+		}
+		input[type="button"]:hover
+		{
+			font-weight: inherit;
+			color: aliceblue;
+			background-color: gold;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<form>
+			<table>
+					<b>Bus Ticket Reservation</b>
+					<tr>
+						<td>Name :</td>
+						<td><input type="text" name="name"></td>
+					<tr>
+						<tr>
+						<td>Address :</td>
+						<td><input type="text" name="address"></td>
+					<tr>
+					<tr>
+						<td>Contact No:</td>
+						<td><input type="text" name="+91"></td>
+					</tr>
+					<tr>
+						<td>Source Station :</td>
+						<td><select name="dropdown">
+									<option>Select Source</option>
+									<option>Shrigonda</option>
+									<option>Ahmednagar</option>
+									<option>pune</option>
+									<option>Daund</option>
+									<option>Kashti</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Destination Station :</td>
+						<td><select name="dropdown">
+										 <option>Select Destination</option>
+										 <option>Shirdi</option>
+										 <option>Kashmir</option>
+										 <option>Goa</option>
+									 	 <option>panji</option>
+									     <option>chennai</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Date of Booking :</td>
+						<td><input type="date" name="date"></td>
+					</tr>
+					<tr>
+						<td>Date Of Journey :</td>
+						<td><input type="date" name="date"></td>
+					</tr>
+					<tr>
+						<td>No of Passenger :</td>
+						<td><input type="text" name="number"></td>
+					</tr>
+					<tr>
+						<td>Name Of Passenger :</td>
+						<td><input type="text" name="name"></td>
+					</tr>
+					<tr>
+						<td>Gender :</td>
+						<td><input type="radio" name="Male">Male
+							<input type="radio" name="Female">Female</td>
+					</tr>
+						<td><input type="button" value="Submit"></td>
+						<td><input type="button" value="reset"></td>
+					</tr>
+				</table>
+			</form>
+			<img src="/home/bba-ca-04/Downloads/bus.jpg" width="30%" height="30%"><br/>
+		</center>
+	</body>
+</html>

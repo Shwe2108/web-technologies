@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel_plan</title>
+            <style type="text/css">
+                    select,input[type="text"]
+                    {
+                        width: 100%;
+                    }
+                    input
+                    {
+                        padding: 5px;
+                    }
+                    select
+                    {
+                        padding: 10px 15px;
+                    }
+                    input[type="button"]
+                    {
+                        border-radius: 10px;
+                        padding: 20px;
+                        width: 250px;
+                        text-transform: uppercase;
+                    }
+                    td:hover{
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: blue;
+                    }
+                    input[type="button"]:hover{
+                        font-weight: bold;
+                        color: yellow;
+                        background-color: green;
+                    }
+            </style>
+    </head>
+    <body bgcolor="skyblue">
+        <center>
+            <form>
+                <table>
+                    <center><caption>Travel Plan Reservation</caption></center>
+                        <tr>
+                            <td>Customer Name :</td>
+                             <td><input type="text"></td>
+                         </tr>
+                        <tr>
+                            <td> Address :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td> Contact Number :</td>
+                            <td><input type="text" value="+91"></td>
+                        </tr>
+                        <tr>
+                            <td> Gender :</td>
+                            <td>
+                                 <input type="radio" value="Male">Male 
+                                 <input type="radio" value="Female">Female    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Season To Go :</td>
+                            <td>
+                                <input type="checkbox" value="on">Winter
+                                <input type="checkbox" value="on">Summer
+                                <input type="checkbox" value="on">Rainy 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>  Location Type To :</td>
+                            <td>
+                                <select name="Location">
+                                    <option>Ahemdabad</option>
+                                    <option>Delhi</option>
+                                    <option>Hyderabad</option>
+                                    <option>Mumbai</option>
+                                    <option>Banglore</option>
+                                    <option>Chennai</option>
+                                    <option>Kashmir</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>From :</td>
+                            <td>
+                                <select name="Location">
+                                    <option>Sikkim</option>
+                                    <option>Gohati</option>
+                                    <option>Kolkatta</option>
+                                    <option>Bhopal</option>
+                                    <option>Jabalpur</option>
+                                    <option>Chandigargh</option>
+                                    <option>Jaipur</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Submit"></td>
+                            <td><input type="button" value="Reset"></td>
+                        </tr>
+                   <img src="/home/bba-ca-04/Downloads/travel.jpeg">
+            </table>
+        </form>
+    </center>
+</body>
+</html>

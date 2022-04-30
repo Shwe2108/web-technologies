@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Document</title>
+                <style type="text/css">
+                        select,input[type="text"]
+                        {
+                            width: 100%;
+                        }
+                        input
+                        {
+                            padding: 5px;
+                        }
+                        select
+                        {
+                            padding: 10px 15px;
+                        }
+                        input[type="button"]
+                        {
+                            border-radius: 10px;
+                            padding: 20px;
+                            width: 250px;
+                        }
+                        td:hover
+                        {
+                            font-weight: bold;
+                            text-transform: unset;
+                            color: hotpink;
+                        }
+                        input[type="button"]:hover
+                        {
+                            font-weight: inherit;
+                            color: aliceblue;
+                            background-color: gray;
+                        }
+                </style>
+    </head>
+<body bgcolor="sky blue">
+        <center>
+                <form name="fname">
+                    <table>
+                            <i><b><center>Customer Information</center></b></i>
+                            <tr>
+                                <td>Enter Your Name :</td>
+                                <td><input type="text" name="First_Name"></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Your contact number :</td>
+                                <td><input type="text" name="contact"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender :</td>
+                                <td><input type="radio" name="gender" value="Male">Male</td>
+                                <td><input type="radio" name="gender" value="Female">Female</td>
+                            </tr>
+                            <tr>
+                                <td>Enter Your Address :</td>
+                                <td><input type="text" name="address"></td>
+                            </tr>
+                            <tr>
+                                <td>Day's Preffered :</td>
+                                <td><select name="dropdown">
+                                            <option value="Monday">Monday</option>
+                                            <option value="Tuesday">Tuesday</option>
+                                            <option value="Tuesday">Wenesday</option>
+                                            <option value="Tuesday">Thrusday</option>
+                                            <option value="Tuesday">Friday</option>
+                                            <option value="Tuesday">Saturday</option>
+                                            <option value="Tuesday">sunday</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> Favourite Items :</td>
+                                <td><select name="dropdown">
+                                                <option value="Foods">Foods</option>
+                                                <option value="Foods">Accessories</option>
+                                                <option value="Foods">Toy</option>
+                                                <option value="Foods">Medicine</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> Suggestion :</td>
+                                <td><textarea rows="10" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Submit"></td>
+                                <td><input type="button" value="Reset"></td>
+                            </tr>
+                        </table>
+                    </form>
+                         <img src="/home/bba-ca-04/Downloads/store.jpeg" width="30%" height="30%"><br/>
+            </center>
+    </body>
+</html>
